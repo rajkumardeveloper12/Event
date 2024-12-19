@@ -94,4 +94,5 @@ public class EventController {
 	public List<Event> FindByStatus(@PathVariable EventStatus status){
 		return repo.findByStatus(status);
 	}
+	
 }
